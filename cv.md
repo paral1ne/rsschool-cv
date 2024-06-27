@@ -39,7 +39,7 @@ return arr[arr1.indexOf(Math.max(...arr1))];
 Study in RS School
 
 ### Education
-Minsk BSATU(2010 - 1015) Ingeneer
+Minsk BSATU(2010 - 2015) Ingeneer
 
 ### Foreign languages
 * Russian - native
