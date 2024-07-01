@@ -1,6 +1,8 @@
 body {
     background-color: rgb(207, 203, 203);
     font-family: Georgia, 'Times New Roman', Times, serif;
+    max-width: 70%;
+    margin: 0 auto;
 }
 img {
     width: 50px;
