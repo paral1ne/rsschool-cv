@@ -78,7 +78,7 @@
                     function high(arr){
                         arr = arr.split(' ');
                       let arr1 = new Array(arr.length).fill(0);
-                      arr.forEach((el, i) =&gt {
+                      arr.forEach((el, i) = {
                         for (let key of el) {
                           arr1[i] += key.charCodeAt() - 'a'.charCodeAt() + 1;
                         }
