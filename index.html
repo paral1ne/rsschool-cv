@@ -3,10 +3,98 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="/styles/style.css">
+    <title>My CV</title>
+    <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
-    
+   <header id="Home">
+    <nav>
+        <ul class="navbar">
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#Contacts">Contacts</a></li>
+            <li><a href="#Skills">Skills</a></li>
+            <li><a href="#Projects">My projects</a></li>
+            <li><a href="#Languages">Languages</a></li>
+        </ul>
+    </nav>
+    <div class="contacts" id="Contacts">
+        <img class="profile-img" src="./images/scale_1200.png" alt="logo">
+        <h1>Andrei Antushevich</h1>
+        <h3>Javascript Developer</h3>
+        <div>
+            <h2>My contacts</h2>
+            <ul class="navbar">
+                <li><a href="https://github.com/paral1ne" title="GitHub" target="_blank"><img src="./images/211729_7866_avatar.png" alt="GitHub"></a></li>
+                <li><a href="https://t.me/paral1ne" title="TG" target="_blank"><img src="./images/Telegram_logo.svg.png" alt="TG-logo"></a></li>
+            </ul>
+        </div>
+    </div>
+   </header>
+   <main>
+    <aside>
+        <div id="Skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTMS</li>
+                <li>CSS</li>
+                <li>JS</li>
+                <li>Git</li>
+            </ul>
+        </div>
+        <div>
+            <h2>Expirience</h2>
+            <ul>
+                <li>Study in RS School</li>
+            </ul>
+        </div>
+        <div><h2>Education</h2>
+            <ul>
+                <li>Minsk BSATU(2010 - 2015) Ingeneer</li>
+            </ul>
+        </div>
+        <div id="Languages"><h2>Foreign languages</h2>
+        <ul>
+            <li>Russian - native</li>
+            <li>Polish - B1(sertificat)</li>
+            <li>English - A2(in progress)</li>
+        </ul></div>
+        <div id="Project"><h2>Project examples</h2>
+        <ul>
+            <li><a href="https://github.com/paral1ne/PartyCalc" target="_blank">Calculation for checks</a></li>
+            <li><a href="https://github.com/paral1ne/carCalc" target="_blank">Calculation of fuel costs</a></li>
+        </ul>
+        </div>
+    </aside>
+    <div class="vertical_Line"></div>
+    <article>
+        <div>
+            <h2>About me</h2>
+            <p>I’m just starting to learn programming. This is a rather complicated thing, as I managed <br> to understand, but diligence and discipline I hope will help me with this</p>
+        </div>
+        <div>
+            <h2>Code Example</h2>
+            <div>
+                <code>
+                    function high(arr){<br>
+                        arr = arr.split(' ');<br>
+                      let arr1 = new Array(arr.length).fill(0);<br>
+                      arr.forEach((el, i) => {<br>
+                        for (let key of el) {<br>
+                          arr1[i] += key.charCodeAt() - 'a'.charCodeAt() + 1;<br>
+                        }<br>
+                      });<br>
+                      return arr[arr1.indexOf(Math.max(...arr1))];<br>
+                      }
+                </code>
+            </div>
+        </div>
+    </article>
+   </main>
+   <footer>
+    <div><a href="https://github.com/paral1ne" target="_blank"><h4>
+        © 2024 ANTUSHEVICH ANDREI
+    </h4></a></div>
+   <div><a href="https://rs.school/courses/javascript" target="_blank"><img src="./images/RS.jpg" alt="ScoolLogo"></a></div>
+</footer>
 </body>
 </html>
