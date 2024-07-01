@@ -74,18 +74,18 @@
         <div>
             <h2>Code Example</h2>
             <div>
-                <code>
-                    function high(arr){<br>
-                        arr = arr.split(' ');<br>
-                      let arr1 = new Array(arr.length).fill(0);<br>
-                      arr.forEach((el, i) => {<br>
-                        for (let key of el) {<br>
-                          arr1[i] += key.charCodeAt() - 'a'.charCodeAt() + 1;<br>
-                        }<br>
-                      });<br>
-                      return arr[arr1.indexOf(Math.max(...arr1))];<br>
+                <pre>
+                    function high(arr){
+                        arr = arr.split(' ');
+                      let arr1 = new Array(arr.length).fill(0);
+                      arr.forEach((el, i) =&gt {
+                        for (let key of el) {
+                          arr1[i] += key.charCodeAt() - 'a'.charCodeAt() + 1;
+                        }
+                      });
+                      return arr[arr1.indexOf(Math.max(...arr1))];
                       }
-                </code>
+                    </pre>
             </div>
         </div>
     </article>
